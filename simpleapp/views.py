@@ -9,4 +9,7 @@ def about(request):  #when user visits this about url then fires this function
 def homepage(request):  #when user visits this about url then fires this function
     # return HttpResponse("This is Home page")
     return render(request, "homepage.html") #always follows with requests at first.
+
+
+
     
