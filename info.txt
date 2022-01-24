@@ -85,9 +85,14 @@ cut templates 2 different parts. Header and footer 1 part. Body another part.
 https://www.youtube.com/watch?v=tyFmF_v3z8c
 =======================================================================
 Django Tutorial #14 - URL Parameters
+stuck on slug. 
 
 https://www.youtube.com/watch?v=c2hbT0uIcOQ
 =======================================================================
+https://www.youtube.com/watch?v=07YSCsscYhc
+stuck on slug
+
+https://www.youtube.com/watch?v=07YSCsscYhc
 
 
 

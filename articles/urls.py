@@ -9,7 +9,7 @@ urlpatterns = [
     path('', views.article_list, name="list"),
     # path('', views.article_list),
     # path('(?P<slug>[\w-]+)/', views.article_detail),
-    # path('', views.article_detail, name="detail"),
+    # path('articles/slug', views.article_detail, name="detail"),
     # path('(?P<slug>[\w-]+)/', views.article_detail, name="detail"),
     # path('<slug:slug>/', views.article_detail, name="detail"),
 ]
