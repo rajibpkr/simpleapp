@@ -1,0 +1,26 @@
+{% comment %} {% load static from staticfiles %} {% endcomment %}
+{% comment %} Above codes from youtube instructor, but depreciated from djiango 2.0 and removed from 3.0 {% endcomment %}
+{% comment %} https://stackoverflow.com/questions/55929472/django-templatesyntaxerror-staticfiles-is-not-a-registered-tag-library {% endcomment %}
+{% load static from static %}
+
+
+<!doctype html>
+<html>
+  <head>
+    
+    
+    <title>Articles</title>
+    {% comment %} <link rel="stylesheet" href="/static/styles.css" {% endcomment %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+  </head>
+  <body>
+      <div="wrapper">
+        <h1><a href="{% url 'list' %}">Artticles</h1>
+          {% block content %}
+          {% endblock %}
+  </div>
+
+
+      
+  </body>
+  </html>

@@ -1,0 +1,93 @@
+Django Tutorial #1 - What is Django?
+https://www.youtube.com/watch?v=n-FTlQ7Djqc&list=PL4cUxeGkcC9ib4HsrXEYpQnTOTZE1x0uc
+----------------------------------
+------------------------------------------
+Above is complete tutorials
+---------------------------------
+--------------------------------------
+
+
+
+Django Tutorial #6 - Django Models
+
+https://www.youtube.com/watch?v=5zNR3E6WRLE
+1. created class model for database. This will create a database for our website.
+
+Django Tutorial #7 - Migrations
+
+https://www.youtube.com/watch?v=aOLrEkpGWDg
+---------------------------------------------------
+
+
+Django Tutorial #8 - The Django ORM
+https://www.youtube.com/watch?v=eio1wDUHFJE
+------------------------------------------------------------------
+
+
+1. After database model creation, we need to run below code to migrate.
+	python manage.py migrate
+   This process only migrate python default database model.
+
+2. Again we need to run below code to make our role model database migrations.
+	python manage.py makemigrations
+
+	Running above codes will add our database form to below python file.
+	0001_initial.py
+3. Again run below code to finish our migrations.
+	python manage.py migrate
+
+4. Every time we make a model or we make a changes to our model we need run process 2 and 3 again or each time.
+
+5. checking model forms data interacting with database with python codes uisng cmd or terminal.
+-----------------------------------------------------------------------------------------------------
+Django Tutorial #9 - The Django Admin
+https://www.youtube.com/watch?v=kmFGjTXWsC4
+
+checked http://127.0.0.1:8000/admin -> returned no username and password
+
+opened the terminal typed ->python manage.py createsuperuser
+
+username: admin
+email: blank
+password: admin
+
+confirm: ok
+
+created successfully.
+Run again -> python manage.py runserver
+-----------------------------------------------------------------------------------
+
+Django Tutorial #10 - Template Tags
+https://www.youtube.com/watch?v=RCE3VUpzGw0
+
+from .models import Article
+add 3rd parameter to return render function. Below is third parameter.
+This way we can output the data to the html template.
+change static html file display mode to dynamic mode.
+Disctionary below is used to pull down each data that matches the value
+{'articles': articles}
+
+in html template 
+create div 
+create for loop for data to be pulled
+=====================================================================
+Django Tutorial #11 - Model Methods
+https://www.youtube.com/watch?v=ERCt6HUcaFw
+
+====================================================================
+Django Tutorial #12 - Static Files & Images
+
+https://www.youtube.com/watch?v=RhJIMUMJ_Do
+====================================================================
+
+
+
+
+
+
+
+
+
+
+
+

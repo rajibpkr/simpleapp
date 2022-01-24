@@ -1,0 +1,36 @@
+{% extends 'base_layout.html' %}
+
+
+
+  {% block content %}
+    <h1>Article List</h1>
+    <div class="articles">
+      {% comment %} this curly braces for python codes. {{ }} for some data. {% endcomment %}
+      {% comment %} article can be any name below {% endcomment %}
+      {% comment %} articles below refer to view def dictionary value 'articles' {% endcomment %}
+      {% for article in articles %} 
+
+      {% comment %} Below is the div for each article in for loop list of articles. {% endcomment %}
+      <div class="article">
+        
+        {% comment %} Article details page goes below. we want to write title below{% endcomment %}
+        {% comment %} each article will have title which goes below like here {% endcomment %}
+        <h2><a href="#">{{ article.title }}</a></h2> 
+        {% comment %} And body of each article goes here below {% endcomment %}
+        {% comment %} <p>{{ article.body }}</p> {% endcomment %}
+        <p>{{ article.snippet }}</p>
+        {% comment %} Same with the date. Date for each article goes here as below {% endcomment %}
+        <p>{{ article.date }} </p>
+
+      </div>   
+
+   
+    {% endfor %}
+  </div>
+
+  {% endblock %}
+
+
+    
+    
+  
