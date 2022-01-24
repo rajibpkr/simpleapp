@@ -79,6 +79,15 @@ Django Tutorial #12 - Static Files & Images
 
 https://www.youtube.com/watch?v=RhJIMUMJ_Do
 ====================================================================
+Django Tutorial #13 - Extending Templates
+cut templates 2 different parts. Header and footer 1 part. Body another part.
+
+https://www.youtube.com/watch?v=tyFmF_v3z8c
+=======================================================================
+Django Tutorial #14 - URL Parameters
+
+https://www.youtube.com/watch?v=c2hbT0uIcOQ
+=======================================================================
 
 
 
