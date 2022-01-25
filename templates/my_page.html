@@ -46,10 +46,15 @@
     There are no athletes.
 {% endif %}
 
+<div> Car Model         Tyre Size Applicable </div>
+<div>
 {% for m in tyre_sizes %}
-    <div> {% if m.name %} {{forloop.counter}}. Size applicable for {{m.name}} is {{m.size}}</div>
+
+    <div> {% if m.name %} {{forloop.counter}} {{m.name}} {{m.size}}</div>
     {% endif %}
     {% endfor %}
+</div>
+
 
 
 
