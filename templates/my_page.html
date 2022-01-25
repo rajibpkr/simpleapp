@@ -8,6 +8,10 @@
     <div> {{m.name}} {{m.phone}}</div>
     {% endfor %}
 
+    {% for m in bdata %}
+    <div> {{m}} </div>
+    {% endfor %}
+
     {% if clist and bdata %}
     Both athletes and coaches are available.
 {% endif %}
