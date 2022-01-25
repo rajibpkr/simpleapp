@@ -21,6 +21,10 @@ def mypage(request):
         'student_details':[
             {'name':'pradeep', 'phone':9856203598,},
             {'name':'testing', 'phone':9852059546},
+        ],
+        'tyre_sizes':[
+            {'name':'maruti800', 'size':'14570R12',},
+            {'name':'marutialto', 'size':'145/80R12',},
         ]
 
     }

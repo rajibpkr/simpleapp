@@ -1,3 +1,6 @@
+{% load static from static %}
+
+<link rel="stylesheet" href="{% static 'styles.css' %}"> 
 <p>hi</p1>
     <div>
     {% for m in clist %}
@@ -8,10 +11,11 @@
     <div> {{m.name}} {{m.phone}}</div>
     {% endfor %}
 
-    {% for m in bdata %}
-    <div> {{m}} </div>
+    {% for m in tyre_sizes %}
+    <div> {{m.name}} {{m.size}}</div>
     {% endfor %}
 
+    
     {% if clist and bdata %}
     Both athletes and coaches are available.
 {% endif %}
