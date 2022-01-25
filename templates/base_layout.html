@@ -15,11 +15,24 @@
   </head>
   <body>
       <div="wrapper">
-        <h1><a href="{% url 'list' %}">Artticles</h1>
+        <h1><a href="{% url 'list' %}">This is header</h1>
           {% block content %}
           {% endblock %}
   </div>
-
+{% comment %}  Footer starts here: {% endcomment %}
+  <div>
+    <p>footer starts here--</p>
+    <div class="card">
+      <div class="card-header">
+        Quote
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>You can fool all the people some of the time, and some of the people all the time, but you cannot fool all the people all the time.</p>
+          <footer class="blockquote-footer">--Abraham Lincoln <cite title="Source Title"></cite></footer>
+        </blockquote>
+      </div>
+    </div>
 
       
   </body>
