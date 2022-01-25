@@ -4,6 +4,10 @@
     <div> {{m}} </div>
     {% endfor %}
 
+    {% for m in student_details %}
+    <div> {{m.name}} {{m.phone}}</div>
+    {% endfor %}
+
     {% if clist and bdata %}
     Both athletes and coaches are available.
 {% endif %}
