@@ -16,8 +16,10 @@
   <body>
       <div="wrapper">
         <h1><a href="{% url 'list' %}">This is header</h1>
+          <div align="center">
           {% block content %}
           {% endblock %}
+          </div>
   </div>
 {% comment %}  Footer starts here: {% endcomment %}
   <div>
