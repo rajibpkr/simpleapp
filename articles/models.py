@@ -1,3 +1,4 @@
+from email.policy import default
 from types import BuiltinMethodType
 from django.db import models
 
@@ -7,6 +8,7 @@ class Article(models.Model): #model is represented by a class in djiango
     slug = models.SlugField()
     body = models.TextField()
     date = models.DateTimeField(auto_now_add=True)
+    thumb = models.ImageField(default='default.png', blank=True)
     #add in thumbnail later
     #add in author later
 

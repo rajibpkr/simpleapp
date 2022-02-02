@@ -1,6 +1,8 @@
 # from django.contrib import admin
 from django.urls import path
 from .import views
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
@@ -13,3 +15,6 @@ urlpatterns = [
     # path('(?P<slug>[\w-]+)/', views.article_detail, name="detail"),
     # path('<slug:slug>/', views.article_detail, name="detail"),
 ]
+
+urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+

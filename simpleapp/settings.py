@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -118,6 +119,12 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+import os
+# ROOT_PATH = os.path.dirname(__file__)
+MEDIA_URL = '/media/'
+# STATICFILES_DIRS = [os.path.join(ROOT_PATH, 'media')]
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 #source of below codes are:
 #https://stackoverflow.com/questions/10048651/path-of-staticfiles-dirs-in-django
 import os
@@ -127,7 +134,7 @@ STATICFILES_DIRS = [os.path.join(ROOT_PATH, 'assets')]
 
 #Tutorial source codes are as below, but changed to stack over flow intructed
 # STATICFILES_DIRS = (
-#     os.path.join(BASE_DIR,'assets'),
+#     os.path.join(BASE_DIR, 'assets'),
 # )
 
 # Default primary key field type
