@@ -17,3 +17,5 @@ class Article(models.Model): #model is represented by a class in djiango
 
     def snippet(self):
         return self.body[:50] + "..."
+
+

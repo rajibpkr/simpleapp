@@ -10,5 +10,12 @@ def article_list(request):
     # Dictionary below is used to pull down the data to the html template.
     return render(request, 'articles/article_list.html', {'articles': articles})
 
+#below function may not work properly.
 def article_detail(request, slug):
-    return HttpResponse(slug)
+    # return HttpResponse(slug)
+    article = Article.objects.get(slug=slug)
+    return render(request, 'articles/article_detail.html', {'article':article})
+
+
+
+

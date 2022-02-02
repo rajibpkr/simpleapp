@@ -95,6 +95,15 @@ stuck on slug
 https://www.youtube.com/watch?v=07YSCsscYhc
 
 
+Django Tutorial #16 - Article Detail Template
+https://www.youtube.com/watch?v=OuKLvoHd5oE
+===================================================================
+
+Django Tutorial #17 - Uploading Media
+https://www.youtube.com/watch?v=LAIVhl2CG8E
+============================================================
+
+
 
 
 
