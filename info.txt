@@ -103,6 +103,11 @@ Django Tutorial #17 - Uploading Media
 https://www.youtube.com/watch?v=LAIVhl2CG8E
 ============================================================
 
+Django Tutorial #18 - Accounts App
+https://www.youtube.com/watch?v=tT-5nfchRxw
+
+================================================================
+
 
 
 
